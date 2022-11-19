@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div
+        class="banner"
+        style="background-image: url('images/bg-desktop-dark.jpg')"
+      >
+        <div class="todo_wrapper">
+          <h1>TODO</h1>
+          <img src="images/icon-sun.svg" />
+        </div>
+        <div class="todo_text_wrapper">
+          <div id="myDIV">
+            <input type="text" placeholder="Create a new todo" id="myInput" />
+            <span class="addBtn">Add</span>
+          </div>
+          <ul class="list" id="myUL"></ul>
+          <div class="info_wrapper">
+            <div class="info">
+              <p>5 items left</p>
+              <div class="choice">
+                <p class="active">All</p>
+                <p>Active</p>
+                <p>Completed</p>
+              </div>
+              <p>Clear Completed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" charset="utf-8"></script>
+</html>
